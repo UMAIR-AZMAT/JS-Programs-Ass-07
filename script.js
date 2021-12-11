@@ -49,7 +49,7 @@ function max_three() {
 // 3. Write a js program to check whether a number is negative, positive or zero.
 
 function number_check() {
-  var number = parseInt(document.getElementById("check_sign").vlaue);
+  var number = parseInt(document.getElementById("check_sign").value);
   let result_03 = document.getElementById("result_03");
 
   if (number >= 0) {
