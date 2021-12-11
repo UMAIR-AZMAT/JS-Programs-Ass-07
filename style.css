@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  background-color: rgba(169, 187, 181, 0.404);
+}
+input {
+  border: 1px black solid;
+}
+div {
+  color: red;
+}
