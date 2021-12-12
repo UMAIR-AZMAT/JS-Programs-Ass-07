@@ -255,11 +255,11 @@ function note_check() {
 
   for (let i = 0; i < 10; i++) {
     if (noteCounter[i] != 0) {
-      console.log(notes[i] + " : " + noteCounter[i]);
-      result_13 = notes[i] + " : " + noteCounter[i];
-      document.getElementById("result_13").innerText = result_13;
+      data = data + `<tr><td>${notes[i]} ${":"} ${noteCounter[i]} </td></tr>`;
+      result_13.innerHTML = notes[i] + " : " + noteCounter[i] + "<br>";
     }
   }
+  result_13.innerHTML = data;
 }
 
 // <!--------------------------------------------------------------------------------------------------------------->
