@@ -350,19 +350,19 @@ function units_check() {
 
   if (units <= 50) {
     pricee = units * 0.5;
-    final_price = pricee + 20 / 100;
+    final_price = peicee + (pricee * 20 / 100;)
     document.getElementById("result_15").innerText = final_price;
   } else if (units <= 100) {
     pricee = units * 0.75;
-    final_price = pricee + 20 / 100;
+     final_price = peicee + (pricee * 20 / 100;)
     document.getElementById("result_15").innerText = final_price;
   } else if (units >= 100 || units <= 250) {
     pricee = units * 1.2;
-    final_price = pricee + 20 / 100;
+    final_price = peicee + (pricee * 20 / 100;)
     document.getElementById("result_15").innerText = final_price;
   } else {
     pricee = units * 1.5;
-    final_price = pricee + 20 / 100;
+    final_price = peicee + (pricee * 20 / 100;)
     document.getElementById("result_15").innerText = final_price;
   }
 }
